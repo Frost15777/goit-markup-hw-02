@@ -7,10 +7,19 @@ body {
 header{
     background-color: #E7E9FC;
 }
-h1, h2 {
+h1 {
     font-weight: 700;
+    font-size: 56;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36;
+}
+h3 {
+    font-size: 20;
 }
 p {
+    font-size: 16;
     font-weight: 400;
     color: #434455;
 }
@@ -21,6 +30,7 @@ p {
     color: #2E2F42;
 }
 .accent-mn {
+    font-size: large;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     text-decoration: none;
@@ -40,6 +50,7 @@ p {
     text-decoration: underline;
 }
 .page-nav .body-m {
+    font-size: medium;
     color: #2E2F42;
     text-decoration: none;
 }
@@ -65,6 +76,7 @@ footer {
     background-color: #2E2F42;
 }
 .fot-tex {
+    font-size: 16;
     font-weight: 400;
     color: #F4F4FD;
 }
