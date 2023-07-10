@@ -4,79 +4,97 @@ body {
     color: #2E2F42;
     background-color: #FCFCFC;
 }
-header{
+
+header {
     background-color: #E7E9FC;
 }
+
 h1 {
     font-weight: 700;
-    font-size: 56;
+    font-size: 56px;
 }
+
 h2 {
     font-weight: 700;
-    font-size: 36;
+    font-size: 36px;
 }
+
 h3 {
-    font-size: 20;
+    font-size: 20px;
 }
+
 p {
-    font-size: 16;
+    font-size: 16px;
     font-weight: 400;
     color: #434455;
 }
+
 .accent {
     color: #4D5AE5;
 }
+
 .accent-ps {
     color: #2E2F42;
 }
+
 .accent-mn {
     font-size: large;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     text-decoration: none;
 }
+
 .accent-rt {
     color: #F4F4FD;
 }
+
 .cont .link {
     text-decoration: none;
     font-weight: 400;
     color: #434455;
     font-style: normal;
 }
+
 .cont .link:hover,
 .cont .link:focus {
     color: #404BBF;
     text-decoration: underline;
 }
+
 .page-nav .body-m {
     font-size: medium;
     color: #2E2F42;
     text-decoration: none;
 }
+
 .page-nav .body-m:hover,
 .page-nav .body-m:focus {
     color: #404BBF;
-        text-decoration: underline;
+    text-decoration: underline;
 }
-button{
+
+button {
     color: #4D5AE5;
     cursor: pointer;
 }
+
 button:hover,
 button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
+
 .order {
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
+
 footer {
     background-color: #2E2F42;
 }
+
 .fot-tex {
-    font-size: 16;
+    font-size: 16px;
     font-weight: 400;
     color: #F4F4FD;
 }
