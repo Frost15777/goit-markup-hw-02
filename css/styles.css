@@ -4,13 +4,6 @@ body {
     color: #2E2F42;
     background-color: #FCFCFC;
 }
-
-:root {
-    --primary-background: #FCFCFC;
-    --primary-text-color: #2E2F42;
-    --primary-font: 'Roboto', sans-serif;
-}
-
 header {
     background-color: #E7E9FC;
 }
