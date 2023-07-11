@@ -5,7 +5,12 @@ body {
     background-color: #FFFFFF;
 }
 
-:root
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --primary-black-color: #434455;
+    --primary-white-color: #FFFFFF;
+    --secondary-black-color: #2e2f42;
+}
 
 header {
     background-color: #E7E9FC;
@@ -80,10 +85,12 @@ header {
     color: #434455;
     font-style: normal;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .cont-mn .cont:hover,
 .cont-mn .cont:focus {
+    font-style: normal;
     color: #404BBF;
     text-decoration: underline;
 }
@@ -107,6 +114,8 @@ header {
 }
 .catgr {
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: #F4F4FD;
     cursor: pointer;
