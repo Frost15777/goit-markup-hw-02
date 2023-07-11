@@ -79,11 +79,13 @@ header {
     color: #F4F4FD;
 }
 
-.cont-mn .cont {
+.cont-mn {
+    font-style: normal;
+}
+.cont {
     text-decoration: none;
     font-weight: 400;
     color: #434455;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
