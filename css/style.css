@@ -68,7 +68,7 @@ header {
     font-size: large;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    text-decoration: none;
+    
 }
 .accent-rt {
     color: #F4F4FD;
@@ -87,20 +87,31 @@ header {
     color: #404BBF;
     text-decoration: underline;
 }
+.link {
+    text-decoration: none;
+}
 
 .list .body-m {
     font-size: medium;
     color: #2E2F42;
-    text-decoration: none;
     line-height: 1.5;
-    list-style: none;
     letter-spacing: 0.02em;
 }
-
+.list {
+    list-style: none;
+}
 .list .body-m:hover,
 .list .body-m:focus {
     color: #404BBF;
     text-decoration: underline;
+}
+.catgr {
+    font-family: "Roboto", sans-serif;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 button {
@@ -120,6 +131,9 @@ button:focus {
 }
 
 .order {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
