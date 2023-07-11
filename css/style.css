@@ -1,9 +1,11 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    color: #2E2F42;
-    background-color: #FCFCFC;
+    color: #434455;
+    background-color: #FFFFFF;
 }
+
+:root
 
 header {
     background-color: #E7E9FC;
@@ -33,27 +35,26 @@ p {
     line-height: 1.5;
 }
 
-.accent {
-    color: #4D5AE5;
-}
 
 .accent-ps {
     color: #2E2F42;
 }
 
 .accent-mn {
-    line-height: 1.2;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
     font-size: large;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     text-decoration: none;
 }
-
 .accent-rt {
     color: #F4F4FD;
 }
 
-.cont .link {
+.cont-mn .cont {
     text-decoration: none;
     font-weight: 400;
     color: #434455;
@@ -61,21 +62,22 @@ p {
     line-height: 1.5;
 }
 
-.cont .link:hover,
-.cont .link:focus {
+.cont-mn .cont:hover,
+.cont-mn .cont:focus {
     color: #404BBF;
     text-decoration: underline;
 }
 
-.page-nav .body-m {
+.list .body-m {
     font-size: medium;
     color: #2E2F42;
     text-decoration: none;
     line-height: 1.5;
+    list-style: none;
 }
 
-.page-nav .body-m:hover,
-.page-nav .body-m:focus {
+.list .body-m:hover,
+.list .body-m:focus {
     color: #404BBF;
     text-decoration: underline;
 }
