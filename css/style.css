@@ -112,7 +112,7 @@ header {
 .list .body-m:hover,
 .list .body-m:focus {
     color: #404BBF;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .catgr {
     font-family: "Roboto", sans-serif;
